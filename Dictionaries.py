@@ -6,7 +6,7 @@ print(a,type(a))
 #2
 d={"Carrot":"40/kg","Beans":"30/kg","Radish":"45/kg"}
 print(d,type(d))
-#3-by merging to lists
+#3-by merging two lists
 ab=["Red","Blue","Green","White"]
 xy=[1,2,3,4]
 dictionary=dict(zip(ab,xy))
