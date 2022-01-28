@@ -25,6 +25,10 @@ print(n.split(","))#Output-['Hi', 'hello', 'good morning', 'How are you?']
 #Escape character-  \(backslash)==>\"string\"
 txt = "We are the so-called \"Vikings\"from the north."#So that we get "Vikings"
 print(txt)#Output-We are the so-called "Vikings" from the north.
+abcd='abcd'
+ABCD='ABCD'
+print(abcd.islower())#True if str contains all lower case char's
+print(ABCD.isupper())#True if str contains all upper case char's
 
 
 
