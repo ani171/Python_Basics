@@ -25,7 +25,7 @@ print(d1)
 d1.popitem()#Popitem removes the last inserted key-value pair
 print(d1)
 print(d1.setdefault("Green"))#Gives the value of the key in setdefault
-print(d1.setdefault("Green"))#Function of get is same as setdefault
+print(d1.get("Green"))#Function of get is same as setdefault
 print(d1.keys())#Gives a tuple of all keys in given dictionary
 print(d1.values())#Gives a tuple of all values in given dictionary
 print(d1.items())#Gives a tuple of the key-value pairs in given dictionary
