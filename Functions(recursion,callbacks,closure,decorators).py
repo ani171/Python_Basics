@@ -1,5 +1,5 @@
 #Value returning function
-'''
+
 def f(x,y):  #Here x,y are called parameters
     print((x+y)/2)
 n1=int(input("Enter a number:"))
@@ -65,12 +65,12 @@ x=int(input("Enter a number whose factorial  is to be found:"))
 print(factorial(x))
 
 #Sum of n terms
-def sum_(start,current,stop):
-    if start==(stop+1):
-        return current
+#Sum of n terms
+def sum_(start):
+    if n==0:
+        return 0
     else:
-        return sum_(start+1, current+start,stop)
-print(sum_(1,0,20))
+        return n+sum(n-1)
 
 #Another example
 def fact(n):
@@ -90,7 +90,7 @@ def toh(n, from1, to, aux):
     print("Move ring", n, "from",from1,"peg", to, "peg")
     toh(n-1, aux, to, from1)
 num=int(input("Enter number of discs:"))
-toh(num,'left','right','middle')'''
+toh(num,'left','right','middle')
 
 #Maximum element in a list
 def max_(l):
@@ -111,7 +111,6 @@ def GCD(x,y):
         return GCD(y,r)
 print(GCD(65,91))
     
-'''
 #Callback 
 def f1(x):
     return (x+1)
@@ -162,5 +161,4 @@ mul(3,6)
 def f3(x):
     print(sum(x),max(x))
 f3([1,2,3])
-'''
 
