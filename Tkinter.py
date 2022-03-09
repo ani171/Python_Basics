@@ -122,6 +122,6 @@ root.mainloop()
 #Operations on Checkbox
 from tkinter import *
 root= Tk()
-a=Checkbutton(root, text='male').grid(row=0, sticky=W)
-b=Checkbutton(root, text='female').grid(row=1, sticky=W)
+a=Checkbutton(root, text='male').grid(row=0)
+b=Checkbutton(root, text='female').grid(row=1)
 root.mainloop()
