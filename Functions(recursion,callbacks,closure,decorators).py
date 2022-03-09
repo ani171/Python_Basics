@@ -81,6 +81,13 @@ def fact(n):
 x=int(input("Enter a number whose factorial  is to be found:"))
 print(fact(x))
 
+#Number of unique grid paths
+def grid(n,m):
+    if n==1 or m==1:
+        return 1
+    else:
+        return grid(n,m-1)+grid(n-1,m)
+
 #Tower of Hanoi
 def toh(n, from1, to, aux):
     if n==1:
